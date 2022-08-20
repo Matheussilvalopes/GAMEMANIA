@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #111326;
+    height: 128px;
+    background-position: 100% ;
+
+}
+
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+
+
+
+
+
+.login{
+    display:flex;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: bold;
+    align-items: center;
+}
+
+
+
+
+
+#txtBusca{
+    float:left;
+    background-color:white;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:solid 1px;
+    height:37px;
+    width: 650px;
+    border-radius: 30px;
+    background-image:url(img/lupa.png);
+    background-repeat: no-repeat;
+    text-indent: 0px;
+    background-position-x: right;
+    background-size: contain;
+}
+
+
+
+
+
+.menu{
+    background-color: #4f5788;
+    height: 43px;
+    justify-content: space-between;
+    border: 3px solid #000000;
+}
+.menu{
+    display: flex;
+    background-color: #4f5788;
+    height: 43px;
+    align-items: center;
+}
+
+.atalho{
+    display:flex;
+    font-size: 20px;
+    font-family: "Inter";
+    color: white;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.Banner{
+    background-image: url(img/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 628px;
+    background-position-x: -250px ;
+}
+
+.sloganbanner{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+}
+
+
+
+
+
+
+.conteudobanner{
+    display: flex;
+    width: 533px;
+    height: 139px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudobanner h1{
+    font-family: "Libre Baskerville";
+    color: white;
+    font-size: 40px;
+}
+
+
+.conteudobanner a{
+    font-size: 30px;
+    padding: 15px;
+    color: white;
+    font-family: "Roboto";
+    background-color: red;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+
+
+
+
+.infopagamento{
+    background-color: #4f5788;
+    display: flex;
+    height: 88px;
+    align-items: center;
+    justify-content: space-between;
+}
+.posicionamento{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.entrega{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:297px;
+}
+.entrega p{
+    display: flex;
+    color: white;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: bolder;
+    
+    align-items: center;
+   
+}
+.entrega img{
+    height: 51px;
+    width: 95px;
+    float: left;
+}
+
+
+
+
+
+.pagamentoseguro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:213px;
+}
+.pagamentoseguro{
+    color: white;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: bolder;
+    
+}
+.pagamentoseguro img{
+    height: 51px;
+    width: 51px;
+    float: left;
+}
+
+
+
+
+.parcela{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:315px;
+}
+.parcela{ 
+    color: white;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: bolder;
+    
+}
+
+.parcela img{
+    height: 51px;
+    width: 51px;
+    float: left;
+}
+
+
+.bannerinformativo{
+   height: 859px;
+   background-image: url(Img/backgoundinformativo.png) ;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+.conteudoinformativo{  
+    margin-top: -61px;
+}
+.imguriel{
+    margin-top: 32px;
+    margin-bottom: 0px ;
+}
+.sejagamer{
+    height: 55.77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    font-family: "Inter";
+    font-weight: bolder;
+    margin-top: -65px;
+    
+}
+.textosejagamer{
+    height: 444px;
+    width: 630.66px;
+    display: flex;
+    align-items: center;
+    float: right;
+    color: white;
+    font-size: 30px;
+    font-family: "Baskerville";
+    margin-top: 75px;
+    text-align: justify;
+
+}
+
+.botaosejagamer{
+    display: flex;
+    float: right;
+    margin-right: 177px;
+    margin-top: -83px;
+    font-size: 30px;
+    padding: 15px;
+    color: white;
+    font-family: "Roboto";
+    background-color: #172799;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+
+
+.background{
+    height: 854px;
+    background-color: #111326;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: -7px auto;
+    display: flex;
+    justify-items: center;
+    border: #000000;
+    border-style: solid;
+
+}
+
+.retangulo{
+    height: 850px;
+    width: 1200px ;
+    background-color: #0c0d13;
+    background-blend-mode: color;
+    border-radius:30px;
+    border: #000000;
+    border-style: solid;
+    
+}
+
+.titulo{
+    font-family: "Inter";
+    font-size: 64px;
+    font-weight: bolder;
+    color: white;
+    display:flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 129px;
+}
+
+.ofertasprodutos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+.produto1{
+    height: 465px;
+    width: 251px;
+    background-color: white;
+    border-radius: 30px;
+    border-color: #000000;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+.imgproduto1{
+    height: 240px;
+    width: 240px;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.botaocompreagora{
+    height: 70.92px;
+    width: 224px;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    font-family: "Roboto";
+    background-color: red;
+    text-transform: uppercase;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.produto1 p{
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 20px;
+    height: 125px;
+    width: 248px;
+    text-align: center;
+    margin-bottom: -4px;
+    margin-top: 27px;
+
+}
+
+.produto2{
+    height: 465px;
+    width: 251px;
+    background-color: white;
+    border-radius: 30px;
+    border-color: #000000;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.imgproduto2{
+    height: 240px;
+    width: 257px;
+    border-radius: 30px;
+    justify-content: center;
+   
+
+}
+
+.produto2 p{
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 20px;
+    height: 125px;
+    width: 248px;
+    text-align: center;
+    margin-top: 34px;
+
+}
+
+.produto3{
+    height: 465px;
+    width: 251px;
+    background-color: white;
+    border-radius: 30px;
+    border-color: #000000;
+    border-style: solid;
+    display: flex;
+    justify-content: center; 
+   
+}
+
+.imgproduto3{
+    height: 142px;
+    width: 212px;
+    border-radius: 30px;
+    justify-content: center;
+    margin-top: 57px;
+    margin-left: 20px;
+
+}
+
+.produto3 p{
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 20px;
+    height: 125px;
+    width: 248px;
+    text-align: center;
+    margin-top: 36px;
+
+}
+
+
+
+.background2{
+    height: 300px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.institucional{
+    color: white;
+    display: flex;
+    font-size: 16px;
+    font-family: "Inter";
+    margin-left: -26px;
+    margin-right: 126px;
+    margin-top: -20px;   
+}
+
+.atendimento{
+    color: white;
+    display: flex;
+    font-size: 16px;
+    font-family: "Inter";
+    margin-left: 11px;
+    margin-right: 126px;
+    margin-top: 0px;
+}
+.redessociais{
+    color: white;
+    display: flex;
+    font-size: 16px;
+    font-family: "Inter";
+    margin-left: 0px;
+    margin-right: -26px;
+    margin-top: -148px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-content: center;
+}
+.logoredes{
+    width: 188px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+}
+    
+
