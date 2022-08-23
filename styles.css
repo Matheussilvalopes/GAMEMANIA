@@ -30,23 +30,6 @@ header{
 
 
 
-
-
-
-.login{
-    display:flex;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    font-family: "Inter";
-    font-weight: bold;
-    align-items: center;
-}
-
-
-
-
-
 #txtBusca{
     float:left;
     background-color:white;
