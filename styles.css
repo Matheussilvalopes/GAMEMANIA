@@ -12,7 +12,6 @@ header{
     background-color: #111326;
     height: 128px;
     background-position: 100% ;
-
 }
 
 .container-grid{
@@ -64,6 +63,9 @@ header{
     align-items: center;
 }
 
+#barradepesquisa{
+    display:none;
+}
 .atalho{
     display:flex;
     font-size: 20px;
@@ -508,13 +510,20 @@ header{
     justify-content: space-between;
     margin-right: 0px;
 }
+
+#barras{
+    display: none;
+}
     
 
 @media screen and (max-width:1200px){
+
     .container-grid{
         width: 900px;
     }
-
+    #barradepesquisa{
+        display:none;
+    }
 /*Conteúdo banner 1*/   
     .Banner{
         background-image: url(img/Banner.png);
@@ -525,16 +534,23 @@ header{
     }
     .conteudobanner{
         display: flex;
-        width: 500px;
+        width: 550px;
         height: 275px;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
     }
+    .login{
+        display: flex;
+        width: 150px;
+        justify-content: space-between;
+        margin-left: 25px;
+
+    }
 
 
 
-/* conteúdo Seja Gamer*/
+/* Conteúdo Seja Gamer*/
     .bannerinformativo{
         height: 700px;
         background-image: url(Img/backgoundinformativo.png) ;
@@ -591,7 +607,7 @@ header{
 
 
 
- /* Rodapé*/
+ /* Venda de Produtos*/
     .background{
         height: 696px;
         background-color: #111326;
@@ -761,9 +777,9 @@ header{
         margin-left: 6px;
         margin-top: 13px;}
 
-}
 
 
+/* Rodapé */
 .background2{
     height: 313px;
     background-color: black;
@@ -793,4 +809,380 @@ header{
     margin-bottom: 0px;
     justify-content: center;
     align-content: center;
+}
+.logoredes{
+    width: 188px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 33px;
+}
+#barras{
+    display: none;
+}
+}
+
+/* css para o tablet*/
+@media screen and (max-width: 980px) {
+    .container-grid{
+        width: 900px;
+    }
+
+    #txtBusca{
+        display: none;    
+    }
+
+    #txtBusca2{
+        float:left;
+        background-color:white;
+        padding-left:5px;
+        font-style:italic;
+        font-size:18px;
+        border:solid 1px;
+        height:37px;
+        width: 650px;
+        border-radius: 30px;
+        background-image:url(img/lupa.png);
+        background-repeat: no-repeat;
+        text-indent: 0px;
+        background-position-x: right;
+        background-size: contain;
+    }
+    #menu{
+        display: none
+    }
+    #barras{
+        display: flex;
+        height: 40px;
+        width: 40px;
+    }
+    #infopagamento{
+        display: none;
+    }
+    #barradepesquisa{
+        display:flex;
+        justify-content: space-between;
+
+    }
+    .header{
+        background-color: #111326;
+        height: 128px;
+        width: 375px;
+    }
+    .login{
+        display: flex;
+        width: 163px;
+        justify-content: space-between;
+        height: 40px;
+        
+
+    }
+    .menu{
+            background-color: #4f5788;
+            height: 55px;
+            justify-content: space-between;
+            border: 3px solid #000000;
+    }
+    .menutablet{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container-grid{
+        width: 700px;
+    }
+    .login{
+        display: flex;
+        width: 150px;
+        justify-content: space-between;
+        margin-left: 25px;
+
+    }
+    .Banner{
+        background-image: url(img/Banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        background-position-x: -150px;
+       
+    }
+    .conteudobanner{
+        display: flex;
+        width: 350px;
+        height: 200px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .conteudobanner h1{
+        font-family: "Libre Baskerville";
+        color: white;
+        font-size: 24px;
+    }
+    
+    
+    .conteudobanner a{
+        font-size: 24px;
+        padding: 15px;
+        color: white;
+        font-family: "Roboto";
+        background-color: red;
+        text-transform: uppercase;
+        border-radius: 30px;
+        height: 60px;
+        width: 220px;
+    }
+
+
+/* Conteúdo Seja Gamer*/
+    .bannerinformativo{
+        height: 500px;
+        background-image: url(Img/backgoundinformativo.png) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+        
+    .conteudoinformativo{
+        margin-top: -26px;
+    }
+    .imguriel{
+        width:275px;
+        height: 325px;
+    }
+    .textosejagamer{
+        height: 320px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        float: right;
+        color: white;
+        font-size: 20px;
+        font-family: "Baskerville";
+        margin-top: 0px;
+        text-align: justify;
+    }
+    .sejagamer{
+        height: 40.77px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 40px;
+        font-family: "Inter";
+        font-weight: bolder;
+        margin-top: 0px;
+    }
+    .botaosejagamer{
+        display: flex;
+        float: right;
+        margin-right: 100px;
+        margin-top: -44px;
+        font-size: 20px;
+        padding: 15px;
+        color: white;
+        font-family: "Roboto";
+        background-color: #172799;
+        text-transform: uppercase;
+        border-radius: 30px;
+    }
+
+
+
+ /* Venda de Produtos*/
+    .background{
+        height: 520px;
+        background-color: #111326;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: -7px auto;
+        display: flex;
+        justify-items: center;
+        border: #000000;
+        border-style: solid;
+    
+    }
+    .retangulo{
+        height: 510px;
+        background-color: #0c0d13;
+        background-blend-mode: color;
+        border-radius:30px;
+        border: #000000;
+        border-style: solid;
+        
+    }   
+    .titulo{
+        font-family: "Inter";
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        display:flex;
+        justify-content: center;
+        margin-top: 12px;
+        margin-bottom: 129px;
+    }
+    .ofertasprodutos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -90px;
+       
+    }
+    .produto1{
+        height: 361px;
+        width: 205px;
+        background-color: white;
+        border-radius: 30px;
+        border-color: #000000;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+    }  
+    .imgproduto1{
+        height: 122px;
+        width: 180px;
+        border-radius: 30px;
+        justify-content: center;
+    }
+    .botaocompreagora{
+        height: 70.92px;
+        width: 170px;
+        font-size: 16px;
+        padding: 15px;
+        color: white;
+        font-family: "Roboto";
+        background-color: red;
+        text-transform: uppercase;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 4px;
+        margin-top: 24px;
+    }
+    .produto1 p{
+        font-family: "Inter";
+        font-weight: bold;
+        font-size: 16px;
+        height: 100px;
+        width: 150px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 15px;
+    
+    }
+    .produto2{
+        height: 361px;
+        width: 205px;
+        background-color: white;
+        border-radius: 30px;
+        border-color: #000000;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+       
+    } 
+    .imgproduto2{
+        height: 109px;
+        width: 173px;
+        border-radius: 30px;
+        justify-content: center;
+        margin-top: 3px;
+    
+    } 
+    .produto2 p{
+        font-family: "Inter";
+        font-weight: bold;
+        font-size: 16px;
+        height: 100px;
+        width: 150px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+    .botaocompreagora2{
+        height: 70.92px;
+        width: 170px;
+        font-size: 16px;
+        padding: 15px;
+        color: white;
+        font-family: "Roboto";
+        background-color: red;
+        text-transform: uppercase;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+        margin-top: 25px;
+    
+    }
+    .produto3{
+        height: 361px;
+        width: 205px;
+        background-color: white;
+        border-radius: 30px;
+        border-color: #000000;
+        border-style: solid;
+        display: none;
+        justify-content: center;
+       ; 
+       
+    }  
+
+    .background2{
+        height: 313px;
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .institucional{
+            color: white;
+            display: flex;
+            font-size: 16px;
+            font-family: "Inter";
+    }
+    .atendimento{
+        color: white;
+        display: flex;
+        font-size: 16px;
+        font-family: "Inter";
+        margin-left: 11px;
+        margin-right: 120px;
+        margin-top: 19px;
+    }
+    .redessociais{
+            color: white;
+            display: flex;
+            font-size: 16px;
+            font-family: "Inter";
+            margin-left: 0px;
+            margin-right: -13px;
+            margin-top: -183px;
+            margin-bottom: 0px;
+            justify-content: center;
+            align-content: center;
+    }
+    .logoredes{
+            width: 188px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 33px;
+    }
 }

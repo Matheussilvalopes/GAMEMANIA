@@ -7,6 +7,8 @@
     <title>Game Mania</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/525a09fd43.js" crossorigin="anonymous"></script>
+ 
 
 </head>
 
@@ -19,15 +21,15 @@
         
         <input type="text" id="txtBusca" placeholder="Buscar..."/>
 
-        <div class="login"><!--Colocar o "href" depois-->
-            <img src="img/user.png" alt="Imagem da silhueta de um homem, precedido do botão login">
+        <div class="login">
+              <img src="img/user.png" alt="Imagem da silhueta de um homem, precedido do botão login">
+              <img id="carrinho" src="img/Carrinho.png" alt="Imagem de um carrinho de compras - Botão Minhas Compras">
+              <img id="barras" src="img/Menu.png" alt="Menu de hambúguer clique para abrir o menu">
         </div>
-        
-        <img src="img/Carrinho.png" alt="Imagem de um carrinho de compras - Botão Minhas Compras">
 
-    </div>  
+    </div> 
     </header>
-    <section class="menu">
+    <section id= "menu" class="menu">
             <nav class="container-grid atalho">
             <a>PC</a>
             <a>Console</a>
@@ -37,6 +39,11 @@
             <a>Contato</a>
         <!-- Colocoar o "href" em todas as páginas depois-->
             </nav>
+        </div>
+    </section> 
+    <section id="barradepesquisa" class="menu">
+        <div class=" container-grid menutablet">
+            <input type="text" id="txtBusca2" placeholder="Buscar..."/>
         </div>
     </section> 
     <section class="Banner">
@@ -54,7 +61,7 @@
 
         </div>
     </section>
-    <section class="container d-flex justify-content-between align-items-center infopagamento">
+    <section id="infopagamento" class="container d-flex justify-content-between align-items-center infopagamento">
         <!--Usando o bootstrap na section acima-->
         <div class="container-grid posicionamento">
             <div class="pagamentoseguro">
@@ -72,7 +79,7 @@
             </div>
         </div>
     </section>
-    <section class="bannerinformativo">
+    <section id="sejagamer" class="bannerinformativo">
         <div class="container-grid conteudoinformativo">
             <div class="sejagamer">
                 <p>SEJA GAMER!</p>
