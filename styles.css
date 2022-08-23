@@ -147,10 +147,6 @@ header{
 
 .infopagamento{
     background-color: #4f5788;
-    display: flex;
-    height: 88px;
-    align-items: center;
-    justify-content: space-between;
 }
 .posicionamento{
     display:flex;
@@ -247,6 +243,7 @@ header{
     margin-top: 32px;
     margin-bottom: 0px ;
 }
+
 .sejagamer{
     height: 55.77px;
     display: flex;
@@ -345,7 +342,7 @@ header{
 }
 
 .imgproduto1{
-    height: 240px;
+    height: 223px;
     width: 240px;
     border-radius: 30px;
     justify-content: center;
@@ -364,7 +361,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 12px;
+    margin-left: 8px;
 }
 
 .produto1 p{
@@ -392,8 +389,8 @@ header{
 }
 
 .imgproduto2{
-    height: 240px;
-    width: 257px;
+    height: 213px;
+    width: 240px;
     border-radius: 30px;
     justify-content: center;
    
@@ -409,6 +406,21 @@ header{
     text-align: center;
     margin-top: 34px;
 
+}
+.botaocompreagora2{
+    height: 70.92px;
+    width: 224px;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    font-family: "Roboto";
+    background-color: red;
+    text-transform: uppercase;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9px;
 }
 
 .produto3{
@@ -428,7 +440,7 @@ header{
     width: 212px;
     border-radius: 30px;
     justify-content: center;
-    margin-top: 57px;
+    margin-top: 67px;
     margin-left: 20px;
 
 }
@@ -443,6 +455,21 @@ header{
     margin-top: 36px;
 
 }
+.botaocompreagora3{
+    height: 70.92px;
+    width: 224px;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    font-family: "Roboto";
+    background-color: red;
+    text-transform: uppercase;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;}
+
 
 
 
@@ -500,3 +527,287 @@ header{
 }
     
 
+@media screen and (max-width:1200px){
+    .container-grid{
+        width: 900px;
+    }
+
+/*Conteúdo banner 1*/   
+    .Banner{
+        background-image: url(img/Banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        background-position-x: 100%;
+    }
+    .conteudobanner{
+        display: flex;
+        width: 500px;
+        height: 275px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+/* conteúdo Seja Gamer*/
+    .bannerinformativo{
+        height: 700px;
+        background-image: url(Img/backgoundinformativo.png) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }   
+    .conteudoinformativo{
+        margin-top: -53px;
+    }
+    .imguriel{
+        width:350px;
+        height: 400px;
+    }
+    .textosejagamer{
+        height: 524px;
+        width: 532.66px;
+        display: flex;
+        align-items: center;
+        float: right;
+        color: white;
+        font-size: 28px;
+        font-family: "Baskerville";
+        margin-top: 0px;
+        text-align: justify;
+    }
+    .sejagamer{
+        height: 40.77px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 30px;
+        font-family: "Inter";
+        font-weight: bolder;
+        margin-top: 0px;
+    }
+    .botaosejagamer{
+        display: flex;
+        float: right;
+        margin-right: 100px;
+        margin-top: -17px;
+        font-size: 30px;
+        padding: 15px;
+        color: white;
+        font-family: "Roboto";
+        background-color: #172799;
+        text-transform: uppercase;
+        border-radius: 30px;
+    }
+
+
+
+ /* Rodapé*/
+    .background{
+        height: 696px;
+        background-color: #111326;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: -7px auto;
+        display: flex;
+        justify-items: center;
+        border: #000000;
+        border-style: solid;
+    
+    }
+    .retangulo{
+        height: 688px;
+        background-color: #0c0d13;
+        background-blend-mode: color;
+        border-radius:30px;
+        border: #000000;
+        border-style: solid;
+        
+    }   
+    .titulo{
+        font-family: "Inter";
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        display:flex;
+        justify-content: center;
+        margin-top: 12px;
+        margin-bottom: 129px;
+    }
+    .produto1{
+        height: 361px;
+        width: 205px;
+        background-color: white;
+        border-radius: 30px;
+        border-color: #000000;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+    }  
+    .imgproduto1{
+        height: 122px;
+        width: 180px;
+        border-radius: 30px;
+        justify-content: center;
+    }
+    .botaocompreagora{
+        height: 70.92px;
+        width: 170px;
+        font-size: 16px;
+        padding: 15px;
+        color: white;
+        font-family: "Roboto";
+        background-color: red;
+        text-transform: uppercase;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 4px;
+        margin-top: 24px;
+    }
+    .produto1 p{
+        font-family: "Inter";
+        font-weight: bold;
+        font-size: 16px;
+        height: 100px;
+        width: 150px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 15px;
+    
+    }
+    .produto2{
+        height: 361px;
+        width: 205px;
+        background-color: white;
+        border-radius: 30px;
+        border-color: #000000;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+       
+    } 
+    .imgproduto2{
+        height: 109px;
+        width: 173px;
+        border-radius: 30px;
+        justify-content: center;
+        margin-top: 3px;
+    
+    } 
+    .produto2 p{
+        font-family: "Inter";
+        font-weight: bold;
+        font-size: 16px;
+        height: 100px;
+        width: 150px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+    .botaocompreagora2{
+        height: 70.92px;
+        width: 170px;
+        font-size: 16px;
+        padding: 15px;
+        color: white;
+        font-family: "Roboto";
+        background-color: red;
+        text-transform: uppercase;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+        margin-top: 25px;
+    
+    }
+    .produto3{
+        height: 361px;
+        width: 205px;
+        background-color: white;
+        border-radius: 30px;
+        border-color: #000000;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+       ; 
+       
+    }  
+    .imgproduto3{
+        height: 109px;
+        width: 173px;
+        border-radius: 30px;
+        justify-content: center;
+        margin-top: 9px;
+        margin-left: 6px;
+    
+    }    
+    .produto3 p{
+        font-family: "Inter";
+        font-weight: bold;
+        font-size: 16px;
+        height: 100px;
+        width: 150px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 15px;
+    
+    }
+    .botaocompreagora3{
+        height: 70.92px;
+        width: 170px;
+        font-size: 16px;
+        padding: 15px;
+        color: white;
+        font-family: "Roboto";
+        background-color: red;
+        text-transform: uppercase;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 6px;
+        margin-top: 13px;}
+
+}
+
+
+.background2{
+    height: 313px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.institucional{
+    color: white;
+    display: flex;
+    font-size: 16px;
+    font-family: "Inter";
+    margin-left: -26px;
+    margin-right: 126px;
+    margin-top: 24px;   
+}
+.redessociais{
+    color: white;
+    display: flex;
+    font-size: 16px;
+    font-family: "Inter";
+    margin-left: 0px;
+    margin-right: -26px;
+    margin-top: -173px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-content: center;
+}
