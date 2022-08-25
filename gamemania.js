@@ -1,9 +1,20 @@
-function mostrarBarra(){
-    let Barradepesquisa= document.getElementById("txtBusca")
-    if(getComputedStyle(txtBusca).display=="none"){
-        txtBusca.style.display="flex"
+function mostrarMenu(){
+    let menu= document.getElementById("menu")
+    menu.style.display="flex"
+    if(getComputedStyle(menu).display=="none"){
+        menu.style.display="flex"
+    }else{
+        menu.style.display="none"
+    }
+}
+function esconderbarradepesquisa() {
+   let barradepesquisa= document.getElementById("barradepesquisa")
+    barradepesquisa.style.display="flex"
+    if(getComputedStyle(barradepesquisa).display=="none"){
+    
+        barradepesquisa.style.display="flex"
 
     }else{
-        txtBusca.style.display="none"
+         barradepesquisa.style.display="none"
     }
 }
