@@ -50,15 +50,20 @@ header{
     height: 30px;
     border: 3px solid #000000;
     align-items: center;
+    justify-content: space-between;
 }
 #txtBusca2{
     display:none;
 }
 .atalho{
+    display: flex;
     font-size: 17px;
     font-family: "Inter";
     color: white;  
+
 }
+.menu2{display: none;}
+.menu3{display: none}
 
 
 
@@ -75,6 +80,8 @@ header{
     justify-content: flex-end;
     height: 100%;
     align-items: center;
+    position: absolute;
+    
 }
 .conteudobanner{
     display: flex;
@@ -83,7 +90,9 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    color: white
+    color: white;
+    margin-top: 90px;
+    float: right;
 }
 .conteudobanner h1{
     font-family: "Libre Baskerville";
@@ -837,7 +846,12 @@ header{
     }
     #menu{
         display: none;
+
     }
+    #menu3{
+        display: none;
+    }
+
     #barras{
         display: flex;
         height: 40px;
@@ -859,12 +873,27 @@ header{
         
 
     }
-    .menu{
+    .menu3{
         display: flex;
         background-color: #4f5788;
+        flex-direction: column;
+        float: right;
+        text-align: center;
+        border-radius: 30px;
+        font-family: "Baskerville";
+        font-size: large;    
+        color: white;
+        font-weight: bolder;
+        transform: translateY(-90px);
+        width: 600px;
+    }
+    .menu2{
+        display:flex;
+        background-color: #4f5788;
         height: 55px;
-        justify-content:center ;
         border: 3px solid #000000;
+        justify-content:center ;
+        align-items: center;
     }
     .textosejagamer{
         height: 524px;
@@ -909,6 +938,7 @@ header{
         font-family: "Inter";
         
     }
+    .atalhomobile
     
     .atendimento{
         color: white;
@@ -975,6 +1005,9 @@ header{
         justify-content: space-between;
         margin-left: 25px;
 
+    }
+    .menu{
+        display: none;
     }
     .Banner{
         background-image: url(img/Banner.png);

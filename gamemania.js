@@ -1,20 +1,16 @@
 function mostrarMenu(){
-    let menu= document.getElementById("menu")
-    menu.style.display="flex"
+    let menu= document.getElementById("menu3")
     if(getComputedStyle(menu).display=="none"){
         menu.style.display="flex"
     }else{
         menu.style.display="none"
     }
 }
-function esconderbarradepesquisa() {
-   let barradepesquisa= document.getElementById("barradepesquisa")
-    barradepesquisa.style.display="flex"
-    if(getComputedStyle(barradepesquisa).display=="none"){
-    
-        barradepesquisa.style.display="flex"
-
+function esconderPesquisa(){
+    let pesquisa= document.getElementById("txtBusca2")
+    if(getComputedStyle(menu).display=="none"){
+        pesquisa.style.display="flex"
     }else{
-         barradepesquisa.style.display="none"
+        pesquisa.style.display="none"
     }
 }
