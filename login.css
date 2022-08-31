@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*configuração cabeçalho*/
+header{
+    background-color: #111326;
+    height: 128px;
+    background-position: 100% ;
+}
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+#txtBusca{
+    float:left;
+    background-color:white;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:solid 1px;
+    height:37px;
+    width: 650px;
+    border-radius: 30px;
+    background-image:url(img/lupa.png);
+    background-repeat: no-repeat;
+    text-indent: 0px;
+    background-position-x: right;
+    background-size: contain;
+}
+#barras{
+    display: none;
+}
+
+
+/*configuração Menu*/
+.menu{
+    background-color: #4f5788;
+    height: 30px;
+    border: 3px solid #000000;
+    align-items: center;
+    justify-content: space-between;
+}
+#txtBusca2{
+    display:none;
+}
+.atalho{
+    display: flex;
+    font-size: 17px;
+    font-family: "Inter";
+    color: white;  
+
+}
+.menu2{display: none;}
+.menu3{display: none}
+
+.body-login{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    
+}
+.banner-1{
+    background-image: url(img/banner\ cs.jpg);
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-2{
+    background-image: url(img/banner-lol.jpg);
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat
+
+}
+.banner-3{
+    background-image: url(img/banner-valorant.jpg);
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.effects{
+    transition-duration: 4000ms;
+    
+}
+.login-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 312px;
+    width: 463px;
+    background-color: #111326;
+    border-radius: 20px;
+
+}
+.email{
+    display: flex;
+    padding: 15px;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: "Inter";
+}
+
+.email label{
+    padding-right: 10px;
+}
+
+.email input{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.senha{
+    display: flex;
+    padding: 15px;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: "Inter";
+}
+
+.senha label{
+    padding-right: 10px;
+}
+
+.senha input{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.botao-login{
+    background-color: #4f5788;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: "Inter";
+    font-size: 18px;
+    width: 200px;
+}
+
+.background2{
+    height: 372px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.institucional{
+    color: white;
+    display: flex;
+    font-size: 16px;
+    font-family: "Inter";
+
+}
+
+.atendimento{
+    color: white;
+    display: flex;
+    font-size: 16px;
+    font-family: "Inter";
+    margin-top: 17px;
+
+}
+.redessociais{
+    color: white;
+    display: flex;
+    font-size: 16px;
+    font-family: "Inter";
+    margin-top: -190px;
+}
+.institucional h1{
+    color: white;
+    display: flex;
+    font-size: 24px;
+    font-family: "Inter";
+}
+
+.atendimento h1{
+    color: white;
+    display: flex;
+    font-size: 24px;
+    font-family: "Inter";
+}
+.redessociais h1{
+    color: white;
+    display: flex;
+    font-size: 24px;
+    font-family: "Inter";
+}
+.logoredes{
+    width: 188px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+}
