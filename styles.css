@@ -63,18 +63,43 @@ header{
 
 }
 .menu2{display: none;}
-.menu3{display: none}
-
+.menu3{display: none;}
+#menu3{
+    display: none;
+}
 
 
 /*configuração Banner*/
-.Banner{
+.efeitos{
+    transition-duration: 3s;
+}
+
+
+.banner-pc1{
     background-image: url(img/Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 628px;
-    background-position-x: -250px ;
+    
 }
+
+.banner-pc2{
+    background-image: url(img/banner-pc2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 628px;
+   
+    
+}
+
+.banner-pc3{
+    background-image: url(img/banner-pc3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 628px;
+  
+}
+
 .sloganbanner{
     display: flex;
     justify-content: flex-end;
@@ -83,7 +108,7 @@ header{
     position: absolute;
     
 }
-.conteudobanner{
+.conteudobanner1{
     display: flex;
     width: 533px;
     height: 139px;
@@ -91,14 +116,16 @@ header{
     align-items: center;
     justify-content: space-between;
     color: white;
-    margin-top: 90px;
     float: right;
+    transition-duration: 3s;
+
 }
-.conteudobanner h1{
+
+.conteudobanner1 h1{
     font-family: "Libre Baskerville";
     font-size: 40px;
 }
-.conteudobanner a{
+.conteudobanner1 a{
     font-size: 30px;
     padding: 15px;
     font-family: "Roboto";
@@ -106,7 +133,6 @@ header{
     text-transform: uppercase;
     border-radius: 30px;
 }
-
 
 
 
